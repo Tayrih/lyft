@@ -22,3 +22,20 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+
+/*Codigo Karina*/
+footer{
+  background: #333447;
+}
+.footer-img{
+  width: 100px;
+}
+.line{
+  display: inline-block;
+  margin-left:150px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  }
+  
