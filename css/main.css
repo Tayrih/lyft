@@ -52,10 +52,15 @@ a {
 }
 
 .menu-white {
-  padding: 5px 10% 5px 10%;
-  font-size: 1em;
+	background-color: white;
+	color: #333447;
+  	padding: 5px 10% 5px 10%;
+  	font-size: 1em;
 }
 
+.menu-white .menu li a {
+	color: #333447;
+}
 
 .menu {
   display: block;
@@ -80,11 +85,10 @@ a {
 }
 
 #section1 {
-  background-image: url("../assets/images/hero.gif");
-  background-repeat: no-repeat;
-  padding-bottom: 100px;
+  background-image: url('../assets/images/hero.gif');
   background-size: 100%;
   min-height: 700px;
+  padding-bottom: 100px;
 }
 
 .style1 {
@@ -121,17 +125,21 @@ a {
   font-size: .6rem;
 }
 
-.pink {
-  color: #ff00bf;
-}
+
 #section1 form input {
   border: none;
   font-size: 20px;
   color: #728099;
 }
-
-#section1 .buttom {
-  margin-top: .5rem;
+.union {
+	top:-60px;
+	background: linear-gradient(transparent,#76278f);
+	color: white;
+	min-height: 60px
+}
+#section2 {
+	background: linear-gradient(#76278f,#2b1e66);
+	color: white;
 }
 
 #section1 .buttom button {
@@ -150,12 +158,18 @@ a {
   border-radius: .5rem;
 }
 
+.box1 {
+
+  width: 60%;
+  display: block;
+  float: left;
+}
 .box {
   background-color: #fff;
   color: #352384;
   width: 35%;
-  margin-left: 60%;
-  padding: 10px;
+  margin-left: 65%;
+  padding: 50px;
 }
 /*Codigo Karina*/
 footer{
