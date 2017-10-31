@@ -171,17 +171,92 @@ a {
   margin-left: 65%;
   padding: 50px;
 }
-/*Codigo Karina*/
+/*Codigo Karina--->INICIO DE LA SECCIÓN 2*/
+.s2{
+  background:linear-gradient(#76278F, #2B1E66);;
+ 
+}
+.phone{
+  width: 500px;
+  margin-top: 50px;
+}
+.lineS2{
+  display: inline-block;
+}
+.text{
+  width: 450px;
+  margin: 0 8% 5% 10%;
+  color: white;
+  line-height: 35px;
+
+}
+.separacion{
+  margin-bottom: 60px;
+}
+/*Codigo Karina--->FINAL DE LA SECCIÓN 2*/
+/*----------------------------------------------------------------------------------------*/
+/*Codigo Karina--->INICIO DE LA SECCIÓN 3*/
+.s3{
+  background:#FFFFFF;
+  }
+.lines3{
+  display: inline-block;
+  color: black;
+}
+
+.tamanio{
+  margin-bottom: 0;
+}
+
+
+/*Codigo Karina--->FINAL DE LA SECCIÓN 3*/
+/*----------------------------------------------------------------------------------------*/
+/*Codigo Karina--->INICIO EL FOOTER*/
 footer{
   background: #333447;
 }
 .footer-img{
-  width: 100px;
+  width: 110px;
 }
 .line{
   display: inline-block;
-  margin-left:150px;
-  margin-top: 5px;
+  margin-left:180px;
+  margin-top: 50px;
   box-sizing: border-box;
   color: #fff;
+  line-height: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
   }
+h3{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.icon{
+ 
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  border-color: white;
+  border: 2px solid white;
+  color: white;
+  margin:30px; 
+  /*permite que los iconos sean de la misma dimencion*/
+  width: 2rem;
+  height: 2rem;
+}
+.footer_p, .p_footer{
+  text-align: center;
+  color: white;
+}
+.p_footer{
+  padding: 30px 0 20px 0;
+}
+.linea{
+  width: 500px;
+  height: 1px;
+  background-color: #fff;
+  margin:  0 0 0 30%;
+}
+/*Codigo Karina--->FINAL EL FOOTER*/
