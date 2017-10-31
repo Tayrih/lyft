@@ -9,12 +9,15 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="icons/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/header.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <header>
+    <div id="Header">
         <nav id="menu-nav" class="main menu-transparent">
           <div class="logo"><a href="#"><img src="assets/images/logo-white.png" alt="Logo Lyft"></a></div>
           <ul class="menu text">
@@ -25,25 +28,23 @@
             <li><a href="#">Sign up</a></li>
           </ul>
         </nav>
+      </div>
     </header>
     <main>
-      <section id="section1" class="container">
-        <div>
-          <img src="assets/images/hero.gif">
-        </div>
-        <div>
-          <h1>turn miles into money</h1>
-          <h2>sign up to drive with lyft</h2>
-          <form action="">
-            <input type="text">
-            <div class="">
+      <section id="section1" class="container style1">
+        <div class="box">
+          <h1 class="text">turn miles into money</h1>
+          <h2 class="text">sign up to drive with lyft</h2>
+          <form>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Phone number" />
+            <div class="buttom">
               <button>Become a Driver</button>
               <button>sign up to drive</button>
             </div>
           </form>
           <p>Already applied? Check the status of your application here.</p>
-            <p>Get ride credit for inviting friends. Learn more</p>
-
+          <p>Get ride credit for inviting friends. Learn more</p>
         </div>
       </section>
     <section>
